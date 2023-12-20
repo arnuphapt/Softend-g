@@ -23,7 +23,7 @@
 - **Section**: [3]
 - **GitHub Username**: [Note2545]
 
-<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%8D%E0%B8%B2.jpg width="300" alt = Your Image>
+<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%8D%E0%B8%B2.jpeg width="300" alt = Your Image>
 
 4  
 - **Name**: [บุษกร สร้อยพาน]
