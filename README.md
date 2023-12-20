@@ -31,7 +31,7 @@
 - **Section**: [3]
 - **GitHub Username**: [Butsakornnn]
 
-![Your Image](media/butsakornsp.jpg)
+<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/butsakornsp.jpg width="300" alt = Your Image>
 
 5
 - **Name**: [ภาสกร จินดา]
