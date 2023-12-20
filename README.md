@@ -15,7 +15,7 @@
 - **Section**: [3]
 - **GitHub Username**: [Warapornoil]
 
-![Your Image](media/วราภรณ์.jpg)
+<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/%E0%B8%A7%E0%B8%A3%E0%B8%B2%E0%B8%A0%E0%B8%A3%E0%B8%93%E0%B9%8C.jpg width="300" alt = Your Image>
 
 3   
 - **Name**: [ปรัชญา สุภา]
