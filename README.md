@@ -39,6 +39,7 @@
 - **Section**: [3]
 - **GitHub Username**: [Patsakorn]
 
-![Your Image](media/Patsakorn.jpg)
+<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/Patsakorn.jpg width="300" alt = Your Image>
+
 
 
