@@ -7,7 +7,8 @@
 - **Section**: [3]
 - **GitHub Username**: [arnuphapt]
 
-![Your Image](media/me.jpg)
+<img src = https://github.com/arnuphapt/Softend-g/blob/main/media/me.jpg width="300" alt = Your Image>
+
 
 2
 - **Name**: [วราภรณ์ เครือภักดี]
