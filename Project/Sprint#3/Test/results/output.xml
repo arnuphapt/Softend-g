@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.8 on win32)" generated="20240228 21:35:13.299" rpa="false" schemaversion="4">
+<suite id="s1" name="PrestaShop-develop" source="C:\xampp\htdocs\PrestaShop-develop (1)\PrestaShop-develop">
+<suite id="s1-s1" name="Testing" source="C:\xampp\htdocs\PrestaShop-develop (1)\PrestaShop-develop\Testing">
+<suite id="s1-s1-s1" name="Test" source="C:\xampp\htdocs\PrestaShop-develop (1)\PrestaShop-develop\Testing\Test.robot">
+<test id="s1-s1-s1-t1" name="Testcase 01" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:13.648" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:13.648" endtime="20240228 21:35:15.871"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:15.876" endtime="20240228 21:35:16.008"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:17.008" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:16.008" endtime="20240228 21:35:17.009"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="English (English)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:17.009" level="INFO">Clicking element 'xpath=//a[@title="English (English)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:17.009" endtime="20240228 21:35:17.338"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:18.338" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:17.338" endtime="20240228 21:35:18.338"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="Bahasa Indonesia (Indonesian)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:18.338" level="INFO">Clicking element 'xpath=//a[@title="Bahasa Indonesia (Indonesian)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:18.338" endtime="20240228 21:35:18.748"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:13.646" endtime="20240228 21:35:18.748"/>
+</test>
+<test id="s1-s1-s1-t2" name="Testcase 02" line="14">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:18.755" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:18.750" endtime="20240228 21:35:21.163"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:21.163" endtime="20240228 21:35:21.294"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:22.298" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:21.298" endtime="20240228 21:35:22.298"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="English (English)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:22.304" level="INFO">Clicking element 'xpath=//a[@title="English (English)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:22.298" endtime="20240228 21:35:22.782"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:23.784" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:22.782" endtime="20240228 21:35:23.784"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:products-section-title</arg>
+<arg>POPULAR PRODUCTS</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:23.784" level="INFO">Verifying element 'class:products-section-title' contains exact text 'POPULAR PRODUCTS'.</msg>
+<status status="PASS" starttime="20240228 21:35:23.784" endtime="20240228 21:35:23.830"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240228 21:35:23.830" endtime="20240228 21:35:26.052"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:18.750" endtime="20240228 21:35:26.052"/>
+</test>
+<test id="s1-s1-s1-t3" name="Testcase 03" line="25">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:26.052" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:26.052" endtime="20240228 21:35:28.528"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:28.528" endtime="20240228 21:35:28.668"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:29.668" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:28.668" endtime="20240228 21:35:29.668"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="Bahasa Indonesia (Indonesian)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:29.673" level="INFO">Clicking element 'xpath=//a[@title="Bahasa Indonesia (Indonesian)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:29.669" endtime="20240228 21:35:30.115"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:products-section-title</arg>
+<arg>POPULER</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:30.115" level="INFO">Verifying element 'class:products-section-title' contains exact text 'POPULER'.</msg>
+<status status="PASS" starttime="20240228 21:35:30.115" endtime="20240228 21:35:30.168"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240228 21:35:30.168" endtime="20240228 21:35:32.384"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:26.052" endtime="20240228 21:35:32.384"/>
+</test>
+<test id="s1-s1-s1-t4" name="Testcase 04" line="35">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:32.392" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:32.392" endtime="20240228 21:35:34.815"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:34.816" endtime="20240228 21:35:34.948"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:35.948" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:34.948" endtime="20240228 21:35:35.948"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="English (English)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:35.948" level="INFO">Clicking element 'xpath=//a[@title="English (English)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:35.948" endtime="20240228 21:35:36.372"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:37.376" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:36.372" endtime="20240228 21:35:37.376"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="ภาษาไทย (Thai)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:37.384" level="INFO">Clicking element 'xpath=//a[@title="ภาษาไทย (Thai)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:37.383" endtime="20240228 21:35:37.728"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:products-section-title</arg>
+<arg>สินค้ายอดนิยม</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:37.732" level="INFO">Verifying element 'class:products-section-title' contains exact text 'สินค้ายอดนิยม'.</msg>
+<status status="PASS" starttime="20240228 21:35:37.728" endtime="20240228 21:35:37.765"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240228 21:35:37.765" endtime="20240228 21:35:39.906"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:32.388" endtime="20240228 21:35:39.908"/>
+</test>
+<test id="s1-s1-s1-t5" name="Testcase 05" line="46">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:39.908" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:39.908" endtime="20240228 21:35:42.092"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:42.092" endtime="20240228 21:35:42.215"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:43.218" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:42.218" endtime="20240228 21:35:43.218"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//img[@alt='กระเป๋า KKU']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:43.218" level="INFO">Clicking element 'xpath=//img[@alt='กระเป๋า KKU']'.</msg>
+<status status="PASS" starttime="20240228 21:35:43.218" endtime="20240228 21:35:43.698"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:44.699" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:43.698" endtime="20240228 21:35:44.699"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="English (English)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:44.699" level="INFO">Clicking element 'xpath=//a[@title="English (English)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:44.699" endtime="20240228 21:35:45.018"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:h1</arg>
+<arg>KKU BAG</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:45.023" level="INFO">Verifying element 'class:h1' contains exact text 'KKU BAG'.</msg>
+<status status="PASS" starttime="20240228 21:35:45.018" endtime="20240228 21:35:45.064"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:add</arg>
+<arg> ADD TO CART</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:45.064" level="INFO">Verifying element 'class:add' contains exact text ' ADD TO CART'.</msg>
+<status status="PASS" starttime="20240228 21:35:45.064" endtime="20240228 21:35:45.093"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:39.908" endtime="20240228 21:35:45.096"/>
+</test>
+<test id="s1-s1-s1-t6" name="Testcase 06" line="57">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:45.098" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:45.098" endtime="20240228 21:35:47.783"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:47.787" endtime="20240228 21:35:47.918"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:48.919" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:47.918" endtime="20240228 21:35:48.920"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//img[@alt='กระเป๋า KKU']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:48.923" level="INFO">Clicking element 'xpath=//img[@alt='กระเป๋า KKU']'.</msg>
+<status status="PASS" starttime="20240228 21:35:48.922" endtime="20240228 21:35:49.326"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:50.336" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:49.327" endtime="20240228 21:35:50.338"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="Bahasa Indonesia (Indonesian)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:50.438" level="INFO">Clicking element 'xpath=//a[@title="Bahasa Indonesia (Indonesian)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:50.437" endtime="20240228 21:35:50.888"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:h1</arg>
+<arg>KKU TAS</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:50.954" level="INFO">Verifying element 'class:h1' contains exact text 'KKU TAS'.</msg>
+<status status="PASS" starttime="20240228 21:35:50.951" endtime="20240228 21:35:51.090"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:add</arg>
+<arg> BELI</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:51.099" level="INFO">Verifying element 'class:add' contains exact text ' BELI'.</msg>
+<status status="PASS" starttime="20240228 21:35:51.096" endtime="20240228 21:35:51.248"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:45.098" endtime="20240228 21:35:51.251"/>
+</test>
+<test id="s1-s1-s1-t7" name="Testcase 07" line="67">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost:8080/th/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240228 21:35:51.255" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/th/'.</msg>
+<status status="PASS" starttime="20240228 21:35:51.255" endtime="20240228 21:35:54.798"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240228 21:35:54.804" endtime="20240228 21:35:54.928"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:55.939" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:54.928" endtime="20240228 21:35:55.947"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//img[@alt='กระเป๋า KKU']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:55.985" level="INFO">Clicking element 'xpath=//img[@alt='กระเป๋า KKU']'.</msg>
+<status status="PASS" starttime="20240228 21:35:55.985" endtime="20240228 21:35:56.453"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240228 21:35:57.500" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20240228 21:35:56.453" endtime="20240228 21:35:57.500"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="English (English)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:57.517" level="INFO">Clicking element 'xpath=//a[@title="English (English)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:57.516" endtime="20240228 21:35:58.038"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:h1</arg>
+<arg>KKU BAG</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.038" level="INFO">Verifying element 'class:h1' contains exact text 'KKU BAG'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.038" endtime="20240228 21:35:58.078"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:add</arg>
+<arg> ADD TO CART</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.078" level="INFO">Verifying element 'class:add' contains exact text ' ADD TO CART'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.078" endtime="20240228 21:35:58.118"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="ภาษาไทย (Thai)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:58.118" level="INFO">Clicking element 'xpath=//a[@title="ภาษาไทย (Thai)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.118" endtime="20240228 21:35:58.428"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:h1</arg>
+<arg>กระเป๋า KKU</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.430" level="INFO">Verifying element 'class:h1' contains exact text 'กระเป๋า KKU'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.430" endtime="20240228 21:35:58.458"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:add</arg>
+<arg> หยิบใส่ตะกร้า</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.458" level="INFO">Verifying element 'class:add' contains exact text ' หยิบใส่ตะกร้า'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.458" endtime="20240228 21:35:58.504"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//a[@title="Bahasa Indonesia (Indonesian)"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240228 21:35:58.507" level="INFO">Clicking element 'xpath=//a[@title="Bahasa Indonesia (Indonesian)"]'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.505" endtime="20240228 21:35:58.829"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:h1</arg>
+<arg>KKU TAS</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.832" level="INFO">Verifying element 'class:h1' contains exact text 'KKU TAS'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.832" endtime="20240228 21:35:58.861"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>class:add</arg>
+<arg> BELI</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20240228 21:35:58.868" level="INFO">Verifying element 'class:add' contains exact text ' BELI'.</msg>
+<status status="PASS" starttime="20240228 21:35:58.861" endtime="20240228 21:35:58.888"/>
+</kw>
+<status status="PASS" starttime="20240228 21:35:51.251" endtime="20240228 21:35:58.888"/>
+</test>
+<status status="PASS" starttime="20240228 21:35:13.419" endtime="20240228 21:35:58.894"/>
+</suite>
+<status status="PASS" starttime="20240228 21:35:13.419" endtime="20240228 21:35:58.903"/>
+</suite>
+<status status="PASS" starttime="20240228 21:35:13.371" endtime="20240228 21:35:58.908"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="PrestaShop-develop">PrestaShop-develop</stat>
+<stat pass="7" fail="0" skip="0" id="s1-s1" name="Testing">PrestaShop-develop.Testing</stat>
+<stat pass="7" fail="0" skip="0" id="s1-s1-s1" name="Test">PrestaShop-develop.Testing.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
